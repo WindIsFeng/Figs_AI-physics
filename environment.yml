@@ -1,0 +1,33 @@
+name: ai-wind-figs
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - numpy>=1.21
+  - pandas>=1.3
+  - xarray
+  - netCDF4
+  - matplotlib
+  - seaborn
+  - cartopy
+  - scipy
+  - dask
+  - pip
+  - pip:
+    - jupyterlab>=3.0
+    - numpy>=1.21
+    - pandas>=1.3
+    - xarray>=2022.9
+    - netCDF4>=1.5
+    - matplotlib>=3.4
+    - seaborn>=0.11
+    - cartopy>=0.20
+    - scipy>=1.7
+    - dask>=2022.2
+
+# Create the environment with:
+# conda env create -f environment.yml
+# Activate with: conda activate ai-wind-figs
