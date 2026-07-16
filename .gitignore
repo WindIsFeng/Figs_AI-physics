@@ -6,3 +6,4 @@ data
 *.nc
 *.txt
 *.xlsx
+*.npy
